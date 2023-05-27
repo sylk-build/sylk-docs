@@ -12,7 +12,7 @@ setup(
     install_requires="sylk",
     entry_points={"sylk": ["docs = sylk_docs"]},
     py_modules=["sylk_docs"],
-    version = "0.0.2",
+    version = "0.0.3",
     python_requires="~=3.7",
     author_email="Sylk Team <contact@sylk.build>",
     url="https://sylk.build/",
