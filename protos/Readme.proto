@@ -1,0 +1,14 @@
+// sylk.build Generated proto DO NOT EDIT
+syntax = "proto3";
+
+
+package sylk.Readme.v1;
+
+
+
+// [sylk.Readme.v1.Markdown] - None
+message Markdown {
+	string path = 1;
+	string title = 2;
+}
+

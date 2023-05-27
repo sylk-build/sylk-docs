@@ -1,0 +1,257 @@
+{
+    "organization": {
+        "orgId": "103367183836493333392",
+        "domain": "sylk"
+    },
+    "packages": {
+        "protos/v1/Plugin.proto": {
+            "uri": "103367183836493333392.sylkdocs/sylk.Plugin.v1",
+            "name": "Plugin",
+            "package": "sylk.Plugin.v1",
+            "messages": [
+                {
+                    "uri": "103367183836493333392.sylkdocs/sylk.Plugin.v1.Plugin",
+                    "name": "Plugin",
+                    "fullName": "sylk.Plugin.v1.Plugin",
+                    "fields": [
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Plugin.v1.Plugin.readme",
+                            "name": "readme",
+                            "fullName": "sylk.Plugin.v1.Plugin.readme",
+                            "fieldType": "TYPE_MESSAGE",
+                            "label": "LABEL_REPEATED",
+                            "messageType": "sylk.Readme.v1.Markdown",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 1
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Plugin.v1.Plugin.docusaurus",
+                            "name": "docusaurus",
+                            "fullName": "sylk.Plugin.v1.Plugin.docusaurus",
+                            "fieldType": "TYPE_MESSAGE",
+                            "label": "LABEL_OPTIONAL",
+                            "messageType": "sylk.Docusaurus.v1.PresetOptions",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 3
+                        }
+                    ],
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/message"
+                }
+            ],
+            "type": "packages",
+            "dependencies": [
+                "sylk.Readme.v1",
+                "sylk.Docusaurus.v1"
+            ]
+        },
+        "protos/v1/Docusaurus.proto": {
+            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1",
+            "name": "Docusaurus",
+            "package": "sylk.Docusaurus.v1",
+            "messages": [
+                {
+                    "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PresetOptions",
+                    "name": "PresetOptions",
+                    "fullName": "sylk.Docusaurus.v1.PresetOptions",
+                    "fields": [
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PresetOptions.sylk",
+                            "name": "sylk",
+                            "fullName": "sylk.Docusaurus.v1.PresetOptions.sylk",
+                            "fieldType": "TYPE_MESSAGE",
+                            "label": "LABEL_OPTIONAL",
+                            "messageType": "sylk.Docusaurus.v1.PluginOptions",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 1
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PresetOptions.docs",
+                            "name": "docs",
+                            "fullName": "sylk.Docusaurus.v1.PresetOptions.docs",
+                            "fieldType": "TYPE_MESSAGE",
+                            "label": "LABEL_OPTIONAL",
+                            "messageType": "sylk.Docusaurus.v1.ContentDocOptions",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 2
+                        }
+                    ],
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/message"
+                },
+                {
+                    "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions",
+                    "name": "PluginOptions",
+                    "fullName": "sylk.Docusaurus.v1.PluginOptions",
+                    "fields": [
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions.sylkJsonPaths",
+                            "name": "sylkJsonPaths",
+                            "fullName": "sylk.Docusaurus.v1.PluginOptions.sylkJsonPaths",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_REPEATED",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 1
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions.sylkDocsPath",
+                            "name": "sylkDocsPath",
+                            "fullName": "sylk.Docusaurus.v1.PluginOptions.sylkDocsPath",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 2
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions.sidebarPath",
+                            "name": "sidebarPath",
+                            "fullName": "sylk.Docusaurus.v1.PluginOptions.sidebarPath",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 3
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions.routeBasePath",
+                            "name": "routeBasePath",
+                            "fullName": "sylk.Docusaurus.v1.PluginOptions.routeBasePath",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 4
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.PluginOptions.git",
+                            "name": "git",
+                            "fullName": "sylk.Docusaurus.v1.PluginOptions.git",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 5
+                        }
+                    ],
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/message"
+                },
+                {
+                    "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.ContentDocOptions",
+                    "name": "ContentDocOptions",
+                    "fullName": "sylk.Docusaurus.v1.ContentDocOptions",
+                    "fields": [
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.ContentDocOptions.routeBasePath",
+                            "name": "routeBasePath",
+                            "fullName": "sylk.Docusaurus.v1.ContentDocOptions.routeBasePath",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 1
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Docusaurus.v1.ContentDocOptions.sidebarPath",
+                            "name": "sidebarPath",
+                            "fullName": "sylk.Docusaurus.v1.ContentDocOptions.sidebarPath",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 2
+                        }
+                    ],
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/message"
+                }
+            ],
+            "type": "packages"
+        },
+        "protos/v1/Readme.proto": {
+            "uri": "103367183836493333392.sylkdocs/sylk.Readme.v1",
+            "name": "Readme",
+            "package": "sylk.Readme.v1",
+            "messages": [
+                {
+                    "uri": "103367183836493333392.sylkdocs/sylk.Readme.v1.Markdown",
+                    "name": "Markdown",
+                    "fullName": "sylk.Readme.v1.Markdown",
+                    "fields": [
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Readme.v1.Markdown.path",
+                            "name": "path",
+                            "fullName": "sylk.Readme.v1.Markdown.path",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 1
+                        },
+                        {
+                            "uri": "103367183836493333392.sylkdocs/sylk.Readme.v1.Markdown.title",
+                            "name": "title",
+                            "fullName": "sylk.Readme.v1.Markdown.title",
+                            "fieldType": "TYPE_STRING",
+                            "label": "LABEL_OPTIONAL",
+                            "type": "descriptor",
+                            "kind": "sylk.descriptor/field",
+                            "index": 2
+                        }
+                    ],
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/message"
+                }
+            ],
+            "type": "packages"
+        }
+    },
+    "services": {
+        "docs": {
+            "uri": "103367183836493333392.sylkdocs/sylk.docs.v1",
+            "name": "docs",
+            "fullName": "sylk.docs.v1",
+            "methods": [
+                {
+                    "name": "build",
+                    "fullName": "sylk.docs.v1.build",
+                    "inputType": "sylk.Docusaurus.v1.PresetOptions",
+                    "outputType": "google.protobuf.Empty",
+                    "type": "descriptor",
+                    "kind": "sylk.descriptor/method"
+                }
+            ],
+            "type": "services",
+            "dependencies": [
+                "sylk.Docusaurus.v1",
+                "google.protobuf.Empty"
+            ]
+        }
+    },
+    "configs": {
+        "host": "localhost",
+        "port": 44880
+    },
+    "project": {
+        "uri": "/Users/amitshmulevitch/Projects/sylk/sylk-plugins/sylk-docs",
+        "name": "sylk-docs",
+        "packageName": "sylkdocs",
+        "clients": [
+            {
+                "language": "python",
+                "outDir": "/Users/amitshmulevitch/Projects/sylk/sylk-plugins/sylk-docs/clients/python"
+            }
+        ],
+        "server": {
+            "language": "python"
+        },
+        "description": "Sylk docs plugin"
+    },
+    "sylkVersion": "0.0.7"
+}

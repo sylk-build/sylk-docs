@@ -1,0 +1,13 @@
+// sylk.build Generated proto DO NOT EDIT
+syntax = "proto3";
+
+import "Docusaurus.proto";
+import "google/protobuf/empty.proto";
+
+
+service docs {
+	// [sylk] - None
+	rpc build (sylk.Docusaurus.v1.PresetOptions) returns (google.protobuf.Empty);
+}
+
+

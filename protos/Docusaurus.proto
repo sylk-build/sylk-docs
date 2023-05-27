@@ -1,0 +1,29 @@
+// sylk.build Generated proto DO NOT EDIT
+syntax = "proto3";
+
+
+package sylk.Docusaurus.v1;
+
+
+
+// [sylk.Docusaurus.v1.PresetOptions] - None
+message PresetOptions {
+	sylk.Docusaurus.v1.PluginOptions sylk = 1;
+	sylk.Docusaurus.v1.ContentDocOptions docs = 2;
+}
+
+// [sylk.Docusaurus.v1.PluginOptions] - None
+message PluginOptions {
+	repeated string sylkJsonPaths = 1;
+	string sylkDocsPath = 2;
+	string sidebarPath = 3;
+	string routeBasePath = 4;
+	string git = 5;
+}
+
+// [sylk.Docusaurus.v1.ContentDocOptions] - None
+message ContentDocOptions {
+	string routeBasePath = 1;
+	string sidebarPath = 2;
+}
+

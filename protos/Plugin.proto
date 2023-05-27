@@ -1,0 +1,15 @@
+// sylk.build Generated proto DO NOT EDIT
+syntax = "proto3";
+
+import "Readme.proto";
+import "Docusaurus.proto";
+package sylk.Plugin.v1;
+
+
+
+// [sylk.Plugin.v1.Plugin] - None
+message Plugin {
+	repeated sylk.Readme.v1.Markdown readme = 1;
+	sylk.Docusaurus.v1.PresetOptions docusaurus = 3;
+}
+
