@@ -15,7 +15,7 @@ setup(
     version = "0.0.2",
     python_requires="~=3.7",
     author_email="Sylk Team <contact@sylk.build>",
-    url="https://superset.apache.org/",
+    url="https://sylk.build/",
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
